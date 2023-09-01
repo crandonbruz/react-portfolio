@@ -3,7 +3,7 @@ function About(props) {
   return (
     <div
       className="container-fluid"
-      style={{ backgroundColor: "#598392", height: "100vh", color: "#eff6e0" }}
+      style={{ backgroundColor: "#598392", height: "100vh", color: "#f4f3ee" }}
     >
       <h1 style={{ fontFamily: "Black Ops One, cursive" }}>About Me</h1>
       <img

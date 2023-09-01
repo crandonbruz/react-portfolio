@@ -38,13 +38,13 @@ const Contact = () => {
   return (
     <form
       className="mb-3 p-5"
-      style={{ backgroundColor: "#445877", height: "100vh" }}
+      style={{ backgroundColor: "#598392", height: "100vh" }}
       onSubmit={handleSubmit}
     >
-      <h1 style={{ color: "whitesmoke" }}>Contact</h1>
+      <h1 style={{ color: "#f4f3ee" }}>Contact</h1>
       <div className="mb-3">
         <label
-          style={{ color: "whitesmoke", fontSize: "25px" }}
+          style={{ color: "#f4f3ee", fontSize: "25px" }}
           htmlFor="name"
           className="form-label"
         >
@@ -60,7 +60,7 @@ const Contact = () => {
       </div>
       <div className="mb-3">
         <label
-          style={{ color: "whitesmoke", fontSize: "25px" }}
+          style={{ color: "#f4f3ee", fontSize: "25px" }}
           htmlFor="email"
           className="form-label"
         >
@@ -74,7 +74,7 @@ const Contact = () => {
         />
       </div>
       <div style={{}} className="mb-3">
-        <label style={{ color: "White", fontSize: "25px" }} htmlFor="message">
+        <label style={{ color: "#f4f3ee", fontSize: "25px" }} htmlFor="message">
           Message:
         </label>
         <textarea
