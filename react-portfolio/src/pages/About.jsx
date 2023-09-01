@@ -3,11 +3,20 @@ function About(props) {
   return (
     <div
       className="container-fluid"
-      style={{ backgroundColor: "#445877", height: "100vh", color: "white" }}
+      style={{ backgroundColor: "#598392", height: "100vh", color: "#eff6e0" }}
     >
-      <h1>About Me</h1>
-      <img style={{width: "300px"}} src="./src/assets/IMG_9867.jpg" alt="me" />
-      <article style={{fontSize:"25px"}}>
+      <h1 style={{ fontFamily: "Black Ops One, cursive" }}>About Me</h1>
+      <img
+        style={{ width: "300px" }}
+        src="./src/assets/IMG_9867.jpg"
+        alt="me"
+      />
+      <article
+        style={{
+          fontSize: "35px",
+          fontFamily: "Bricolage Grotesque, sans-serif",
+        }}
+      >
         Hello, my name is Brandon Cruz and I am a student in the University of
         Central Florida bootcamp. I am taking this course to enhanse my skills
         as a web devloper. I would like to do this as a career and I felt this

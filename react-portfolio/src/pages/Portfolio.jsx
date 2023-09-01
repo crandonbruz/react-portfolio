@@ -1,20 +1,32 @@
-import React from 'react';
+import React from "react";
 function Portfolio(props) {
-    return(
-        <section id="Work">
-      <h3 className="content-name">Work</h3>
+  return (
+    <section
+      style={{ backgroundColor: "#598392", height: "100vh", color: "white" }}
+      id="Work"
+    >
+      <h1
+        style={{
+          fontFamily: "Black Ops One, cursive",
+          fontSize: "70px",
+          color: "#eff6e0",
+        }}
+        className="content-name"
+      >
+        Work
+      </h1>
 
       <div className="flex-container">
         <div className="flex-item big-picture">
-          <img src="./assets/images/Main merry wishlist.png" alt="" />
+          <img src="./src/assets/merry-wishlist.png" alt="" />
           <a href="https://wyattbensman.github.io/the-merry-wishlist/">
             The Merry Wishlist HTML/CSS/Javascript
           </a>
         </div>
         <div className="flex-item">
-          <img src="./assets/images/Screenshot 2023-08-16 122313.png" alt="" />
+          <img src="./src/assets/scoreboard-analysis.png" alt="" />
           <a href="https://scoreboard-analytics-ce788d556490.herokuapp.com/">
-            Scoreboard Analytics Node/loT{" "}
+            Scoreboard Analytics Node/loT
           </a>
         </div>
         <div className="flex-item">
@@ -31,6 +43,6 @@ function Portfolio(props) {
         </div>
       </div>
     </section>
-    )
+  );
 }
 export default Portfolio;

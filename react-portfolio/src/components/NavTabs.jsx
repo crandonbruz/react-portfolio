@@ -3,18 +3,28 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul
       className="nav nav-tabs"
       style={{
-        backgroundColor: "#445877",
+        backgroundColor: "#124559",
         padding: "70px",
         justifyContent: "flex-end",
+        fontSize: "40px",
+        color: "#f6fff8",
+        fontFamily: "Black Ops One, cursive",
       }}
     >
       <li className="nav-item">
-        <h1
-          className="position-absolute top-0 start-0"
-          style={{ color: "white", padding: "20px" }}
+        <a
+          className="position-absolute top-10 start-0"
+          style={{
+            color: "#f6fff8",
+            padding: "20px",
+            fontFamily: "Black Ops One, cursive",
+            textDecoration: "none",
+          }}
         >
           Crandonbruz
-        </h1>
+        </a>
+      </li>
+      <li className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
