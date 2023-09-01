@@ -1,12 +1,13 @@
 import { useState } from 'react';
-import NavTabs from './NavTabs';
-import About from './pages/About';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
+import NavTabs from '../components/NavTabs';
+import About from '../pages/About';
+import Resume from '../pages/Resume';
+import Contact from '../pages/Contact';
+import Portfolio from '../pages/Portfolio';
+import  Footer  from "../pages/Footer";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
 
   // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
@@ -29,7 +30,8 @@ export default function PortfolioContainer() {
       {/* // TODO: Add a comment describing what we are passing as props */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* // TODO: Add a comment explaining what is happening on the following line */}
-      <main className="mx-3">{renderPage()}</main>
+      <main id={currentPage} className="mx-3">{renderPage()}</main>
+      <Footer/>
     </div>
   );
 }

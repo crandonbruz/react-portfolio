@@ -1,12 +1,13 @@
-export default function About() {
+import { React } from "react";
+function About(props) {
   return (
     <div
       className="container-fluid"
       style={{ backgroundColor: "#445877", height: "100vh", color: "white" }}
     >
       <h1>About Me</h1>
-      <img src="IMG_9867.jpg" alt="me" />
-      <article>
+      <img style={{width: "300px"}} src="./src/assets/IMG_9867.jpg" alt="me" />
+      <article style={{fontSize:"25px"}}>
         Hello, my name is Brandon Cruz and I am a student in the University of
         Central Florida bootcamp. I am taking this course to enhanse my skills
         as a web devloper. I would like to do this as a career and I felt this
@@ -22,3 +23,4 @@ export default function About() {
     </div>
   );
 }
+export default About;

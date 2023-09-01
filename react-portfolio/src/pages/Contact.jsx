@@ -45,7 +45,7 @@ const Contact = () => {
       <div className="mb-3">
         <label
           style={{ color: "whitesmoke", fontSize: "25px" }}
-          for="exampleInputEmail1"
+          htmlFor="name"
           className="form-label"
         >
           Name:
@@ -61,7 +61,7 @@ const Contact = () => {
       <div className="mb-3">
         <label
           style={{ color: "whitesmoke", fontSize: "25px" }}
-          for="email"
+          htmlFor="email"
           className="form-label"
         >
           Email:

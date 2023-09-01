@@ -1,7 +1,8 @@
-export default function Resume(){
+import React from "react";
+function Resume(props) {
     return(
-        <div>
-            
-        </div>
+        <div></div>
     )
 }
+
+export default Resume;
