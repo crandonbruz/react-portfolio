@@ -11,7 +11,7 @@ function Footer(props) {
           </a>
         </li>
         <li className="list-group-item">
-          <a href="www.linkedin.com/in/brandon-cruz-12-profile">
+          <a href="https://www.linkedin.com/in/brandon-cruz-12-profile/">
             <img src="/linkedin.png" alt="" />
           </a>
         </li>
