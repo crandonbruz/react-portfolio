@@ -20,7 +20,7 @@ function Portfolio(props) {
             <div className="image-container">
               <img
                 style={{ width: "100%" }}
-                src="./src/assets/merry-wishlist.png"
+                src="/merry-wishlist.png"
                 alt=""
               />
               <a
@@ -35,7 +35,7 @@ function Portfolio(props) {
             <div className="image-container">
               <img
                 style={{ width: "100%" }}
-                src="./src/assets/scoreboard-analysis.png"
+                src="/scoreboard-analysis.png"
                 alt=""
               />
               <a
@@ -50,7 +50,7 @@ function Portfolio(props) {
             <div className="image-container">
               <img
                 style={{ width: "100%" }}
-                src="./src/assets/02-portfolio-2.jpg"
+                src="/02-portfolio-2.jpg"
                 alt=""
               />
               <a href="" className="hover-text">
@@ -62,7 +62,7 @@ function Portfolio(props) {
             <div className="image-container">
               <img
                 style={{ width: "100%" }}
-                src="./src/assets/02-portfolio-3.jpg"
+                src="/02-portfolio-3.jpg"
                 alt=""
               />
               <a href="" className="hover-text">
@@ -74,7 +74,7 @@ function Portfolio(props) {
             <div className="image-container">
               <img
                 style={{ width: "100%" }}
-                src="./src/assets/02-run-buddy.jpg"
+                src="/02-run-buddy.jpg"
                 alt=""
               />
               <a href="" className="hover-text">

@@ -5,7 +5,7 @@ function About(props) {
       <h1 style={{ fontFamily: "Black Ops One, cursive" }}>About Me</h1>
       <img
         style={{ width: "300px" }}
-        src="./src/assets/IMG_9867.jpg"
+        src="/IMG_9867.jpg" 
         alt="me"
       />
       <article

@@ -7,17 +7,17 @@ function Footer(props) {
       <ul className="list-group list-group-horizontal justify-content-md-center">
         <li className="list-group-item">
           <a href="https://github.com/crandonbruz">
-            <img src="./src/assets/github.png" alt="" />
+            <img src="/github.png" alt="" />
           </a>
         </li>
         <li className="list-group-item">
           <a href="www.linkedin.com/in/brandon-cruz-12-profile">
-            <img src="./src/assets/linkedin.png" alt="" />
+            <img src="/linkedin.png" alt="" />
           </a>
         </li>
         <li className="list-group-item">
           <a href="https://x.com/brandoncruz12_?s=11&t=bx6nhd_3zPnGCMX3sjlgZA">
-            <img src="./src/assets/twitter.png" alt="" />
+            <img src="/twitter.png" alt="" />
           </a>
         </li>
       </ul>

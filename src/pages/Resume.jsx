@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 function Resume(props) {
   return (
     <div className="mx-5" style={{ color: "#f4f3ee" }}>
@@ -21,7 +22,8 @@ function Resume(props) {
             color: "#f4f3ee",
             fontWeight: "bold",
           }}
-          href=""
+          href="/BrandonCruzResume.docx"
+          download={{}}
         >
           Resume
         </a>{" "}
