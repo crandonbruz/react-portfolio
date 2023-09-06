@@ -1,9 +1,48 @@
-.list-group-item img{
- height: 5vh;
- background-color: #508392;
-}
-.list-group-item:hover{
+.list-group-item {
   background-color: #508392;
-  transition: .5s;
   border: none;
+}
+.list-group-item img {
+  height: 5vh;
+  background-color: #508392;
+}
+.list-group-item:hover {
+  background-color: #495057;
+  transition: 0.5s;
+  border: none;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-text {
+  font-family: "Bricolage Grotesque, sans-serif";
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #598392;
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  opacity: 0; /* Initially hide the text */
+  transition: opacity 0.3s;
+}
+
+.image-container:hover .hover-text {
+  opacity: 0.6; /* Show the text on hover */
+}
+
+.btn:hover{
+  background-color: #508392;
+  opacity: .8;
 }

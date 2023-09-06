@@ -34,19 +34,18 @@ export default function PortfolioContainer() {
     localStorage.setItem("currentPage", page);
   };
   return (
-    <body
+    <div
       style={{
         backgroundColor: "#598392",
       }}
       className="min-vh-100"
     >
-      {/* // TODO: Add a comment describing what we are passing as props */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
+
       <main id={currentPage} className="m-5">
         {renderPage()}
       </main>
       <Footer />
-    </body>
+    </div>
   );
 }

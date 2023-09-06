@@ -9,6 +9,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         fontSize: "40px",
         color: "#f4f3ee",
         fontFamily: "Black Ops One, cursive",
+        border: "none",
       }}
     >
       <li className="nav-item">
@@ -16,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           className="position-absolute top-10 start-0"
           style={{
             color: "#f4f3ee",
-            fontSize:"50px",
+            fontSize: "50px",
             padding: "20px",
             fontFamily: "Black Ops One, cursive",
             textDecoration: "none",
@@ -30,7 +31,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#about"
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
-          style={{ color: "#f4f3ee", backgroundColor:"#598392" }}
+          style={{ color: "#f4f3ee", backgroundColor: "#598392" }}
         >
           About Me
         </a>
@@ -42,7 +43,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={
             currentPage === "Portfolio" ? "nav-link active" : "nav-link"
           }
-          style={{ color: "#f4f3ee", backgroundColor:"#598392" }}
+          style={{ color: "#f4f3ee", backgroundColor: "#598392" }}
         >
           Portfolio
         </a>
@@ -52,7 +53,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#contact"
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
-          style={{ color: "#f4f3ee", backgroundColor:"#598392" }}
+          style={{ color: "#f4f3ee", backgroundColor: "#598392" }}
         >
           Contact
         </a>
@@ -62,7 +63,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#resume"
           onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
-          style={{ color: "#f4f3ee", backgroundColor:"#598392" }}
+          style={{ color: "#f4f3ee", backgroundColor: "#598392" }}
         >
           Resume
         </a>
