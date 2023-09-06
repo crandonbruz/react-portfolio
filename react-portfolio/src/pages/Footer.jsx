@@ -1,6 +1,27 @@
 import { React } from "react";
+import "../App.css";
 
 function Footer(props) {
-  return <div></div>;
+  return (
+    <div className="container">
+      <ul className="list-group list-group-horizontal justify-content-md-center">
+        <li className="list-group-item">
+          <a href="https://github.com/crandonbruz">
+            <img src="./src/assets/github.png" alt="" />
+          </a>
+        </li>
+        <li className="list-group-item">
+          <a href="www.linkedin.com/in/brandon-cruz-12-profile">
+            <img src="./src/assets/linkedin.png" alt="" />
+          </a>
+        </li>
+        <li className="list-group-item">
+          <a href="">
+            <img src="./src/assets/twitter.png" alt="" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  );
 }
 export default Footer;

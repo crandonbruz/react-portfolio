@@ -36,11 +36,7 @@ const Contact = () => {
   };
 
   return (
-    <form
-      className="mb-3 p-5"
-      style={{ backgroundColor: "#598392", height: "100vh" }}
-      onSubmit={handleSubmit}
-    >
+    <form className="mb-3 p-5" onSubmit={handleSubmit}>
       <h1 style={{ color: "#f4f3ee" }}>Contact</h1>
       <div className="mb-3">
         <label
