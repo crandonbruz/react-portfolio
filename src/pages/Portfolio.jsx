@@ -18,11 +18,7 @@ function Portfolio(props) {
         <div className="row">
           <div className="col-6">
             <div className="image-container">
-              <img
-                style={{ width: "100%" }}
-                src="/merry-wishlist.png"
-                alt=""
-              />
+              <img style={{ width: "100%" }} src="/merry-wishlist.png" alt="" />
               <a
                 className="hover-text"
                 href="https://wyattbensman.github.io/the-merry-wishlist/"
@@ -48,23 +44,18 @@ function Portfolio(props) {
           </div>
           <div className="col-6">
             <div className="image-container">
-              <img
-                style={{ width: "100%" }}
-                src="/02-portfolio-2.jpg"
-                alt=""
-              />
-              <a href="" className="hover-text">
-                Calculator React/Javascript/CSS
+              <img style={{ width: "100%" }} src="/soscrisis.png" alt="" />
+              <a
+                href="https://intense-brushlands-00209-785b740cd9c1.herokuapp.com/"
+                className="hover-text"
+              >
+                S.O.S Crisis
               </a>
             </div>
           </div>
           <div className="col-6">
             <div className="image-container">
-              <img
-                style={{ width: "100%" }}
-                src="/02-portfolio-3.jpg"
-                alt=""
-              />
+              <img style={{ width: "100%" }} src="/02-portfolio-3.jpg" alt="" />
               <a href="" className="hover-text">
                 Pastel Puzzles MERN Stack
               </a>
@@ -72,11 +63,7 @@ function Portfolio(props) {
           </div>
           <div className="col-6">
             <div className="image-container">
-              <img
-                style={{ width: "100%" }}
-                src="/02-run-buddy.jpg"
-                alt=""
-              />
+              <img style={{ width: "100%" }} src="/02-run-buddy.jpg" alt="" />
               <a href="" className="hover-text">
                 {" "}
                 Run Buddy HTML/CSS
