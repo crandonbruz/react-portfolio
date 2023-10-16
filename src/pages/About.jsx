@@ -1,11 +1,28 @@
 import { React } from "react";
 function About(props) {
   return (
-    <div className="container-fluid" style={{ color: "#f4f3ee" }}>
-      <h1 style={{ fontFamily: "Black Ops One, cursive" }}>About Me</h1>
+    <div
+      className="container-fluid"
+      style={{
+        color: "#f4f3ee",
+        display: "flex", // Center the content horizontally
+        flexDirection: "column", // Stack the children vertically
+        alignItems: "center", // Center the content vertically
+        justifyContent: "center", // Center the content horizontally
+      }}
+    >
+      <h1
+        style={{
+          fontFamily: "Black Ops One, cursive",
+        }}
+      >
+        About Me
+      </h1>
       <img
-        style={{ width: "300px" }}
-        src="/IMG_9867.jpg" 
+        style={{
+          width: "300px",
+        }}
+        src="/brandon_formal.jpg"
         alt="me"
       />
       <article

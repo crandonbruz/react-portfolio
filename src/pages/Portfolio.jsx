@@ -8,6 +8,9 @@ function Portfolio(props) {
           fontFamily: "Black Ops One, cursive",
           fontSize: "70px",
           color: "#f4f3ee",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
         }}
         className="content-name"
       >

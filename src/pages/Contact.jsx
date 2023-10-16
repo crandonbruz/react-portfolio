@@ -42,73 +42,94 @@ const Contact = () => {
   };
 
   return (
-    <form className="mb-3 p-5" onSubmit={handleSubmit}>
-      <h1 style={{ color: "#f4f3ee" }}>Contact</h1>
-      {error && <div className="alert alert-danger">{error}</div>}
-      {successMessage && (
-        <div className="alert alert-success">{successMessage}</div>
-      )}
-      <div className="mb-3">
-        <label
-          style={{ color: "#f4f3ee", fontSize: "25px" }}
-          htmlFor="name"
-          className="form-label"
-        >
-          Name:
-        </label>
-        <input
-          type="text"
-          className="form-control w-50"
-          id="name"
-          aria-describedby="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-        />
-      </div>
-      <div className="mb-3">
-        <label
-          style={{ color: "#f4f3ee", fontSize: "25px" }}
-          htmlFor="email"
-          className="form-label"
-        >
-          Email:
-        </label>
-        <input
-          type="email"
-          className="form-control w-50"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-      </div>
-      <div style={{}} className="mb-3">
-        <label style={{ color: "#f4f3ee", fontSize: "25px" }} htmlFor="message">
-          Message:
-        </label>
-        <textarea
-          className="form-control h-100 w-50"
-          id="message"
-          name="message"
-          placeholder=""
-          value={formData.message}
-          onChange={handleChange}
-        ></textarea>
-      </div>
-
-      <button
-        type="submit"
+    <div
+      className="container-fluid"
+      style={{
+        color: "#f4f3ee",
+        display: "flex", // Center the content horizontally
+        flexDirection: "column", // Stack the children vertically
+        alignItems: "center", // Center the content vertically
+        justifyContent: "center", // Center the content horizontally
+      }}
+    >
+      <h1
         style={{
-          backgroundColor: "#2f3e46",
-          fontWeight: "bolder",
-          border: "none",
+          fontFamily: "Black Ops One, cursive",
+          color: "#f4f3ee",
         }}
-        className="btn btn-primary"
       >
-        Submit
-      </button>
-    </form>
+        Contact Me and Let's Work Together!
+      </h1>
+      <form className="mb-3 p-5" onSubmit={handleSubmit}>
+        {error && <div className="alert alert-danger">{error}</div>}
+        {successMessage && (
+          <div className="alert alert-success">{successMessage}</div>
+        )}
+        <div className="mb-3">
+          <label
+            style={{ color: "#f4f3ee", fontSize: "25px" }}
+            htmlFor="name"
+            className="form-label"
+          >
+            Name:
+          </label>
+          <input
+            type="text"
+            className="form-control"
+            id="name"
+            aria-describedby="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="mb-3">
+          <label
+            style={{ color: "#f4f3ee", fontSize: "25px" }}
+            htmlFor="email"
+            className="form-label"
+          >
+            Email:
+          </label>
+          <input
+            type="email"
+            className="form-control"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+          />
+        </div>
+        <div style={{}} className="mb-3">
+          <label
+            style={{ color: "#f4f3ee", fontSize: "25px" }}
+            htmlFor="message"
+          >
+            Message:
+          </label>
+          <textarea
+            className="form-control h-100"
+            id="message"
+            name="message"
+            placeholder=""
+            value={formData.message}
+            onChange={handleChange}
+          ></textarea>
+        </div>
+
+        <button
+          type="submit"
+          style={{
+            backgroundColor: "#2f3e46",
+            fontWeight: "bolder",
+            border: "none",
+          }}
+          className="btn btn-primary"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
   );
 };
 

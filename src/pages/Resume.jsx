@@ -2,7 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 function Resume(props) {
   return (
-    <div className="mx-5" style={{ color: "#f4f3ee" }}>
+    <div
+      className="mx-5"
+      style={{
+        color: "#f4f3ee", display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <h1
         style={{
           fontFamily: "Black Ops One, cursive",
@@ -13,7 +21,11 @@ function Resume(props) {
       >
         Resume
       </h1>
-      <h3 style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}>
+      <h3
+        style={{
+          fontFamily: "Bricolage Grotesque, sans-serif",
+        }}
+      >
         Download my{" "}
         <a
           style={{
@@ -30,7 +42,11 @@ function Resume(props) {
         here!
       </h3>
       <div className="my-5">
-        <h2 style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}>
+        <h2
+          style={{
+            fontFamily: "Bricolage Grotesque, sans-serif",
+          }}
+        >
           Front-end Proficiencies
         </h2>
         <ul
