@@ -22,7 +22,7 @@ function Resume(props) {
             color: "#f4f3ee",
             fontWeight: "bold",
           }}
-          href="/BrandonCruzResume.docx"
+          href="/Cruz_Brandon-Resume.docx"
           download={{}}
         >
           Resume
