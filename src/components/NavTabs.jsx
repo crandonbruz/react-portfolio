@@ -1,74 +1,67 @@
+import { Container } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul
-      className="nav nav-tabs"
+    <Navbar
+      data-bs-theme="dark"
       style={{
-        backgroundColor: "#124559",
-        padding: "70px",
-        justifyContent: "flex-end",
         fontSize: "40px",
-        color: "#f4f3ee",
+        backgroundColor: "#124559",
         fontFamily: "Black Ops One, cursive",
-        border: "none",
       }}
     >
-      <li className="nav-item">
-        <a
-          className="position-absolute top-10 start-0"
-          style={{
-            color: "#f4f3ee",
-            fontSize: "50px",
-            padding: "20px",
-            fontFamily: "Black Ops One, cursive",
-            textDecoration: "none",
-          }}
-        >
-          Crandonbruz
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
+      <Container>
+        <Navbar.Brand
           href="#about"
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
-          style={{ color: "#f4f3ee", backgroundColor: "#598392" }}
+          style={{ color: "#f4f3ee", fontSize: "40px" }}
         >
-          About Me
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#portfolio"
-          onClick={() => handlePageChange("Portfolio")}
-          className={
-            currentPage === "Portfolio" ? "nav-link active" : "nav-link"
-          }
-          style={{ color: "#f4f3ee", backgroundColor: "#598392" }}
-        >
-          Portfolio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange("Contact")}
-          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
-          style={{ color: "#f4f3ee", backgroundColor: "#598392" }}
-        >
-          Contact
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#resume"
-          onClick={() => handlePageChange("Resume")}
-          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
-          style={{ color: "#f4f3ee", backgroundColor: "#598392" }}
-        >
-          Resume
-        </a>
-      </li>
-    </ul>
+          Brandon Cruz
+        </Navbar.Brand>
+        <Nav style={{ justifyContent: "flex-end" }}>
+          <Nav.Link
+            href="#about"
+            onClick={() => handlePageChange("About")}
+            className={currentPage === "About" ? "nav-link active" : "nav-link"}
+            style={{ color: "#f4f3ee" }}
+          >
+            About
+          </Nav.Link>
+          <Nav.Link
+            href="#portfolio"
+            onClick={() => handlePageChange("Portfolio")}
+            className={
+              currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+            }
+            style={{ color: "#f4f3ee" }}
+          >
+            Portfolio
+          </Nav.Link>
+          <Nav.Link
+            href="#contact"
+            onClick={() => handlePageChange("Contact")}
+            className={
+              currentPage === "Contact" ? "nav-link active" : "nav-link"
+            }
+            style={{ color: "#f4f3ee" }}
+          >
+            Contact
+          </Nav.Link>
+          <Nav.Link
+            href="#resume"
+            onClick={() => handlePageChange("Resume")}
+            className={
+              currentPage === "Resume" ? "nav-link active" : "nav-link"
+            }
+            style={{ color: "#f4f3ee" }}
+          >
+            Resume
+          </Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
   );
 }
 

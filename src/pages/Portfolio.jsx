@@ -45,7 +45,7 @@ function Portfolio(props) {
               </a>
             </div>
           </div>
-          <div className="col-6">
+          {/* <div className="col-6">
             <div className="image-container">
               <img style={{ width: "100%" }} src="/soscrisis.png" alt="" />
               <a
@@ -55,16 +55,16 @@ function Portfolio(props) {
                 S.O.S Crisis
               </a>
             </div>
-          </div>
-          <div className="col-6">
+          </div> */}
+          {/* <div className="col-6">
             <div className="image-container">
               <img style={{ width: "100%" }} src="/02-portfolio-3.jpg" alt="" />
               <a href="" className="hover-text">
                 Pastel Puzzles MERN Stack
               </a>
             </div>
-          </div>
-          <div className="col-6">
+          </div> */}
+          {/* <div className="col-6">
             <div className="image-container">
               <img style={{ width: "100%" }} src="/02-run-buddy.jpg" alt="" />
               <a href="" className="hover-text">
@@ -72,7 +72,7 @@ function Portfolio(props) {
                 Run Buddy HTML/CSS
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
