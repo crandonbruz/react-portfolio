@@ -1,7 +1,6 @@
-import { React } from "react";
-import "../App.css";
+import "../../App.css";
 
-function Footer(props) {
+function Footer() {
   return (
     <div className="container">
       <ul className="list-group list-group-horizontal justify-content-md-center">
