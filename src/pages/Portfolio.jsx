@@ -45,17 +45,21 @@ function Portfolio(props) {
               </a>
             </div>
           </div>
-          {/* <div className="col-6">
+          <div className="col-6">
             <div className="image-container">
-              <img style={{ width: "100%" }} src="/soscrisis.png" alt="" />
+              <img
+                style={{ width: "100%" }}
+                src="/recipeScreenshot.png"
+                alt=""
+              />
               <a
-                href="https://intense-brushlands-00209-785b740cd9c1.herokuapp.com/"
+                href="https://recipies-client-git-main-crandonbruzs-projects.vercel.app/"
                 className="hover-text"
               >
-                S.O.S Crisis
+                Recipe Search
               </a>
             </div>
-          </div> */}
+          </div>
           {/* <div className="col-6">
             <div className="image-container">
               <img style={{ width: "100%" }} src="/02-portfolio-3.jpg" alt="" />

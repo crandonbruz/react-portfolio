@@ -32,8 +32,8 @@ function About(props) {
         }}
       >
         Hello, my name is Brandon Cruz and I am a student in the University of
-        Central Florida bootcamp. I am taking this course to enhanse my skills
-        as a web devloper. I would like to do this as a career and I felt this
+        Central Florida bootcamp. I am taking this course to enhance my skills
+        as a web developer. I would like to do this as a career and I felt this
         was the best route to take. Here I have some of the projects I have made
         as well as links to my information. One of my passions is baseball. I
         have been playing since I was 3 years old and I am currently training to
