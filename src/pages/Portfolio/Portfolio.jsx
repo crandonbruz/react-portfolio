@@ -32,6 +32,21 @@ function Portfolio() {
               </a>
             </div>
           </div>
+          <div className="col-6">
+            <div className="image-container">
+              <img
+                style={{ width: "100%" }}
+                src="/recipeScreenshot.png"
+                alt=""
+              />
+              <a
+                href="https://recipies-client-git-main-crandonbruzs-projects.vercel.app/"
+                className="hover-text"
+              >
+                Recipe Search
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
