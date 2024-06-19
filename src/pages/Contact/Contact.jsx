@@ -1,7 +1,9 @@
-import React, { useState } from "react";
-import "../App.css";
+import { useState } from "react";
+import { styles } from "./styles";
+import "../../App.css";
 
 const Contact = () => {
+  const { root, title, formLabel, button } = styles;
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -42,35 +44,15 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className="container-fluid"
-      style={{
-        color: "#f4f3ee",
-        display: "flex", // Center the content horizontally
-        flexDirection: "column", // Stack the children vertically
-        alignItems: "center", // Center the content vertically
-        justifyContent: "center", // Center the content horizontally
-      }}
-    >
-      <h1
-        style={{
-          fontFamily: "Black Ops One, cursive",
-          color: "#f4f3ee",
-        }}
-      >
-        Contact Me and Let's Work Together!
-      </h1>
+    <div className="container-fluid" style={root}>
+      <h1 style={title}>Contact Me and Let us Work Together!</h1>
       <form className="mb-3 p-5" onSubmit={handleSubmit}>
         {error && <div className="alert alert-danger">{error}</div>}
         {successMessage && (
           <div className="alert alert-success">{successMessage}</div>
         )}
         <div className="mb-3">
-          <label
-            style={{ color: "#f4f3ee", fontSize: "25px" }}
-            htmlFor="name"
-            className="form-label"
-          >
+          <label style={formLabel} htmlFor="name" className="form-label">
             Name:
           </label>
           <input
@@ -84,11 +66,7 @@ const Contact = () => {
           />
         </div>
         <div className="mb-3">
-          <label
-            style={{ color: "#f4f3ee", fontSize: "25px" }}
-            htmlFor="email"
-            className="form-label"
-          >
+          <label style={formLabel} htmlFor="email" className="form-label">
             Email:
           </label>
           <input
@@ -101,10 +79,7 @@ const Contact = () => {
           />
         </div>
         <div style={{}} className="mb-3">
-          <label
-            style={{ color: "#f4f3ee", fontSize: "25px" }}
-            htmlFor="message"
-          >
+          <label style={formLabel} htmlFor="message">
             Message:
           </label>
           <textarea
@@ -117,15 +92,7 @@ const Contact = () => {
           ></textarea>
         </div>
 
-        <button
-          type="submit"
-          style={{
-            backgroundColor: "#2f3e46",
-            fontWeight: "bolder",
-            border: "none",
-          }}
-          className="btn btn-primary"
-        >
+        <button type="submit" style={button} className="btn btn-primary">
           Submit
         </button>
       </form>

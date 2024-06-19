@@ -1,36 +1,11 @@
-import { React } from "react";
-function About(props) {
+import { styles } from "./styles";
+function About() {
+  const { root, title, img, description } = styles;
   return (
-    <div
-      className="container-fluid"
-      style={{
-        color: "#f4f3ee",
-        display: "flex", // Center the content horizontally
-        flexDirection: "column", // Stack the children vertically
-        alignItems: "center", // Center the content vertically
-        justifyContent: "center", // Center the content horizontally
-      }}
-    >
-      <h1
-        style={{
-          fontFamily: "Black Ops One, cursive",
-        }}
-      >
-        About Me
-      </h1>
-      <img
-        style={{
-          width: "300px",
-        }}
-        src="/brandon_formal.jpg"
-        alt="me"
-      />
-      <article
-        style={{
-          fontSize: "35px",
-          fontFamily: "Bricolage Grotesque, sans-serif",
-        }}
-      >
+    <div className="container-fluid" style={root}>
+      <h1 style={title}>About Me</h1>
+      <img style={img} src="/brandon_formal.jpg" alt="me" />
+      <article style={description}>
         Hello, my name is Brandon Cruz and I am a student in the University of
         Central Florida bootcamp. I am taking this course to enhance my skills
         as a web developer. I would like to do this as a career and I felt this

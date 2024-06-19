@@ -1,16 +1,12 @@
 import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Navbar } from "react-bootstrap";
+import { styles } from "./styles";
+// eslint-disable-next-line react/prop-types
 function NavTabs({ currentPage, handlePageChange }) {
+  const { root } = styles;
   return (
-    <Navbar
-      data-bs-theme="dark"
-      style={{
-        fontSize: "40px",
-        backgroundColor: "#124559",
-        fontFamily: "Black Ops One, cursive",
-      }}
-    >
+    <Navbar data-bs-theme="dark" style={root}>
       <Container>
         <Navbar.Brand
           href="#about"
