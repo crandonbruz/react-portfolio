@@ -8,7 +8,7 @@ function Resume() {
       </h1>
       <h3 style={listHeader}>
         Download my{" "}
-        <a style={link} href="/Cruz_Brandon-Resume.docx" download={{}}>
+        <a style={link} href="/CruzBrandonResume.docx" download={{}}>
           Resume
         </a>{" "}
         here!
