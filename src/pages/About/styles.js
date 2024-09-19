@@ -13,6 +13,7 @@ export const styles = {
     width: "300px",
   },
   description: {
+    width: "50%",
     fontSize: "35px",
     fontFamily: "Bricolage Grotesque, sans-serif",
   },

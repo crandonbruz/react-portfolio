@@ -40,10 +40,10 @@ function Portfolio() {
                 alt=""
               />
               <a
-                href="https://recipies-client-git-main-crandonbruzs-projects.vercel.app/"
+                href="https://recipes-client-ochre.vercel.app/"
                 className="hover-text"
               >
-                Recipe Search
+                Recipe Search Next.js/Express.js
               </a>
             </div>
           </div>
