@@ -13,8 +13,15 @@ export const styles = {
     width: "300px",
   },
   description: {
-    width: "50%",
     fontSize: "35px",
     fontFamily: "Bricolage Grotesque, sans-serif",
+  },
+  paragraph: {
+    border: "5px solid white",
+    borderRadius: "10px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: "20px",
   },
 };

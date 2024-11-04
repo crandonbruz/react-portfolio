@@ -5,6 +5,8 @@ export const styles = {
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
+    border: "5px solid white",
+    borderRadius: "10px",
   },
   title: {
     fontFamily: "Black Ops One, cursive",

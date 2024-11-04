@@ -19,4 +19,8 @@ export const styles = {
     fontWeight: "bolder",
     border: "none",
   },
+  formContainer: {
+    border: "5px solid white",
+    borderRadius: "10px",
+  },
 };
