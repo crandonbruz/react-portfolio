@@ -10,7 +10,7 @@ function Footer() {
           </a>
         </li>
         <li className="list-group-item">
-          <a href="https://www.linkedin.com/in/brandon-cruz-12-profile/">
+          <a href="https://www.linkedin.com/in/brandonjcruz12/">
             <img src="/linkedin.png" alt="" />
           </a>
         </li>

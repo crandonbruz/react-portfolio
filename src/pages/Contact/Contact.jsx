@@ -3,7 +3,7 @@ import { styles } from "./styles";
 import "../../App.css";
 
 const Contact = () => {
-  const { root, title, formLabel, button } = styles;
+  const { root, title, formLabel, button, formContainer } = styles;
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -46,7 +46,7 @@ const Contact = () => {
   return (
     <div className="container-fluid" style={root}>
       <h1 style={title}>Contact Me and Let us Work Together!</h1>
-      <form className="mb-3 p-5" onSubmit={handleSubmit}>
+      <form className="mb-3 p-5" onSubmit={handleSubmit} style={formContainer}>
         {error && <div className="alert alert-danger">{error}</div>}
         {successMessage && (
           <div className="alert alert-success">{successMessage}</div>

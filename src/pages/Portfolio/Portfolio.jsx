@@ -1,16 +1,16 @@
 import { styles } from "./styles";
 import "../../App.css";
 function Portfolio() {
-  const { root, img } = styles;
+  const { root, img, container } = styles;
   return (
     <section style={{ color: "#f4f3ee" }} id="Work">
       <h1 style={root} className="content-name">
         Portfolio
       </h1>
 
-      <div className="container">
+      <div className="container" style={container}>
         <div className="row">
-          <div className="col-6">
+          {/* <div className="col-6">
             <div className="image-container">
               <img style={img} src="/merry-wishlist.png" alt="" />
               <a
@@ -20,7 +20,7 @@ function Portfolio() {
                 The Merry Wishlist HTML/CSS/Javascript
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="col-6">
             <div className="image-container">
               <img style={img} src="/scoreboard-analysis.png" alt="" />

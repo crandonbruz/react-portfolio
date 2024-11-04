@@ -37,6 +37,7 @@ export default function PortfolioContainer() {
     <div
       style={{
         backgroundColor: "#598392",
+        minHeight: "100vh",
       }}
       className="min-vh-100"
     >
