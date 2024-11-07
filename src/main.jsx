@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
 import Error from "./pages/Error/Error";
-import Header from "./pages/Header/Header";
 import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
@@ -17,23 +16,19 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        index: true,
-        element: <Header />,
-      },
-      {
-        path: "/About",
+        path: "/about",
         element: <About />,
       },
       {
-        path: "/Portfolio",
+        path: "/portfolio",
         element: <Portfolio />,
       },
       {
-        path: "/Contact",
+        path: "/contact",
         element: <Contact />,
       },
       {
-        path: "/Resume",
+        path: "/resume",
         element: <Resume />,
       },
     ],

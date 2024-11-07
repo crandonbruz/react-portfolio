@@ -7,7 +7,7 @@ import Portfolio from "../pages/Portfolio/Portfolio";
 import Footer from "../pages/Footer/Footer";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState("");
 
   useEffect(() => {
     const savedPage = localStorage.getItem("currentPage");
