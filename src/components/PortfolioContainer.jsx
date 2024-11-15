@@ -18,6 +18,9 @@ export default function PortfolioContainer() {
   }, []);
 
   const renderPage = () => {
+    if (currentPage === "") {
+      return <About />;
+    }
     if (currentPage === "About") {
       return <About />;
     }
