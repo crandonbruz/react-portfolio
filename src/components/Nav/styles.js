@@ -4,4 +4,8 @@ export const styles = {
     backgroundColor: "#124559",
     fontFamily: "Black Ops One, cursive",
   },
+  links: {
+    color: "#f4f3ee",
+    fontSize: "24px",
+  },
 };
