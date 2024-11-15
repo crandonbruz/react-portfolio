@@ -7,7 +7,6 @@ function NavTabs({ currentPage, handlePageChange }) {
     <Navbar data-bs-theme="dark" style={root}>
       <Container>
         <Navbar.Brand
-          href="about"
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
           style={{ color: "#f4f3ee", fontSize: "40px" }}
@@ -16,7 +15,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         </Navbar.Brand>
         <Nav style={{ justifyContent: "flex-end" }}>
           <Nav.Link
-            href="about"
             onClick={() => handlePageChange("About")}
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
             style={{ color: "#f4f3ee" }}
@@ -24,7 +22,6 @@ function NavTabs({ currentPage, handlePageChange }) {
             About
           </Nav.Link>
           <Nav.Link
-            href="portfolio"
             onClick={() => handlePageChange("Portfolio")}
             className={
               currentPage === "Portfolio" ? "nav-link active" : "nav-link"
@@ -34,7 +31,6 @@ function NavTabs({ currentPage, handlePageChange }) {
             Portfolio
           </Nav.Link>
           <Nav.Link
-            href="contact"
             onClick={() => handlePageChange("Contact")}
             className={
               currentPage === "Contact" ? "nav-link active" : "nav-link"
@@ -44,7 +40,6 @@ function NavTabs({ currentPage, handlePageChange }) {
             Contact
           </Nav.Link>
           <Nav.Link
-            href="resume"
             onClick={() => handlePageChange("Resume")}
             className={
               currentPage === "Resume" ? "nav-link active" : "nav-link"
