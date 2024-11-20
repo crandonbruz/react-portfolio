@@ -43,7 +43,8 @@ export default function PortfolioContainer() {
   return (
     <div
       style={{
-        backgroundColor: "#598392",
+        background:
+          "linear-gradient(360deg, hsla(194, 29%, 44%, 1) 49%, hsla(345, 4%, 59%, 1) 78%)",
         minHeight: "100vh",
       }}
       className="min-vh-100"
