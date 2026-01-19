@@ -10,10 +10,10 @@ export const styles = {
     fontFamily: "Black Ops One, cursive",
   },
   img: {
-    width: "300px",
+    width: "clamp(100px, 30vw,300px)",
   },
   description: {
-    fontSize: "35px",
+    fontSize: "clamp(1.5rem, 2vw, 3.5rem)",
     fontFamily: "Bricolage Grotesque, sans-serif",
   },
   paragraph: {
