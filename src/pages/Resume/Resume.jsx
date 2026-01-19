@@ -1,11 +1,11 @@
 import { styles } from "./styles";
 function Resume() {
-  const { root, title, link, listContent, listHeader } = styles;
+  const { root, link, listContent, listHeader } = styles;
   return (
     <div className="mx-5" style={root}>
-      <h1 style={title} className="content-name">
+      {/* <h1 style={title} className="content-name">
         Resume
-      </h1>
+      </h1> */}
       <h3 style={listHeader}>
         Download my{" "}
         <a style={link} href="/CruzBrandonResume.docx" download={{}}>

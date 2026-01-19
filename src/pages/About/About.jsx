@@ -15,8 +15,10 @@ function About() {
           background and coding skills gained from the Full Stack Coding
           Bootcamp at the University of Central Florida to launch a career in
           software engineering. I am currently persuing my Masters in
-          Information Technology with a concentration in software development.
-          As a dedicated and adaptable individual, I am excited to apply my
+          Information Technology at Nova Southeastern University with a
+          concentration in software development. I am also currently working as
+          an IT support specialist at Immaculate Conception Catholic school. As
+          a dedicated and adaptable individual, I am excited to apply my
           academic achievements and coding skills to a junior software
           engineering role. I am committed to continuous learning and
           contributing positively to dynamic teams. Connect with me to explore

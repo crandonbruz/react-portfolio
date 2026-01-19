@@ -47,7 +47,7 @@ export default function PortfolioContainer() {
           "linear-gradient(360deg, hsla(194, 29%, 44%, 1) 49%, hsla(345, 4%, 59%, 1) 78%)",
         minHeight: "100vh",
       }}
-      className="min-vh-100"
+      // className="min-vh-100 container"
     >
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
 

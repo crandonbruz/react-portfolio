@@ -7,12 +7,13 @@ export const styles = {
     justifyContent: "center",
     border: "5px solid white",
     borderRadius: "10px",
+    padding: "20px",
   },
-  title: {
-    fontFamily: "Black Ops One, cursive",
-    fontSize: "70px",
-    color: "#f4f3ee",
-  },
+  // title: {
+  //   fontFamily: "Black Ops One, cursive",
+  //   fontSize: "clamp(1rem,2vm,70px)",
+  //   color: "#f4f3ee",
+  // },
   link: {
     fontFamily: "Bricolage Grotesque, sans-serif",
     textDecoration: "none",
@@ -23,7 +24,7 @@ export const styles = {
     fontFamily: "Bricolage Grotesque, sans-serif",
   },
   listContent: {
-    fontSize: "25px",
+    fontSize: "clamp(12px, 2vw, 56px)",
     fontFamily: "Bricolage Grotesque, sans-serif",
   },
 };

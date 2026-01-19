@@ -42,7 +42,19 @@
   opacity: 0.6; /* Show the text on hover */
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #508392;
-  opacity: .8;
+  opacity: 0.8;
 }
+
+/* @media (min-width: 4000px) {
+  .container {
+    width: 2050px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 1024px;
+  }
+} */
