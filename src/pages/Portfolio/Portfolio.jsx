@@ -47,6 +47,17 @@ function Portfolio() {
               </a>
             </div>
           </div>
+          <div className="col-6">
+            <div className="image-container">
+              <img style={{ width: "100%" }} src="/jate.jpeg" alt="" />
+              <a
+                href="https://sleek-text-editor-e1986accd4f7.herokuapp.com/"
+                className="hover-text"
+              >
+                Just Another Text Editor
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
