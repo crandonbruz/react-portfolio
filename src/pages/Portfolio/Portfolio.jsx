@@ -58,6 +58,17 @@ function Portfolio() {
               </a>
             </div>
           </div>
+          <div className="col-6">
+            <div className="image-container">
+              <img style={{ width: "100%" }} src="/noteTaker.jpeg" alt="" />
+              <a
+                href="https://floating-bastion-76190-762f4e791520.herokuapp.com/"
+                className="hover-text"
+              >
+                Note Taker
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
